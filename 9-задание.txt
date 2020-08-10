@@ -1,0 +1,40 @@
+#include<stdio.h>
+#include<locale.h>
+#include<conio.h>
+#include<stdbool.h>
+
+int main() {
+
+	int  x, y, x1 , y1;
+
+	 x = 1, y = 2;
+	 x1 = 2, y1 = 1;
+
+	
+	
+
+	printf("\n%d", (x >= 0) || (y*2!= 4));  //a
+	
+	printf("\n%d", (x >= 0) && (y * 2 != 4)); //b
+
+	printf("\n%d", (x1 * y1 != 0) && (y1 > x1)); //c
+
+	printf("\n%d", (x1 * y1 != 0) || (y1 < x1));  //d
+
+	return 0;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
