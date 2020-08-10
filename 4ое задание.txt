@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<locale.h>
+#include<conio.h>
+#include<stdbool.h>
+
+int main() {
+
+	int a;
+	
+
+
+
+	scanf_s("%d", &a);
+	
+	printf("%d", (a > 1000 && a != 4999));
+	
+		return 0;
+
+		
+
+	
+	
+	 
+
+}
+
+
+
+
+
+
+
+
