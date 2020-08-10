@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<locale.h>
+#include<conio.h>
+#include<stdbool.h>
+
+int main() {
+
+	float a, b, c, d;
+
+
+
+	printf("Write two numbers");
+	scanf_s("%f%f", &a , &b );
+
+	printf("Write other two numbers");
+	
+	scanf_s("%f%f", &c, &d);
+	
+
+	printf("%d", a / b > c / d );
+
+	return 0;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
