@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<locale.h>
+#include<conio.h>
+#include<stdbool.h>
+
+int main() {
+
+	int  a, b, c;
+
+	a = 1, b = 0, c = 0;
+
+	
+	
+
+	printf("\n%d", a || b && ! c);  //a
+	printf("\n%d", ! a && ! b);     // b
+	printf("\n%d",  !(a  && c) || b ); //c
+	printf("\n%d", a && !b || c);  //d 
+	printf("\n%d", a || !(b && c)); //e
+	
+
+	return 0;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
